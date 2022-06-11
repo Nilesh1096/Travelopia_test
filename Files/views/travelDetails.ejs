@@ -1,0 +1,23 @@
+
+<%- include("partials/header"); -%>
+    <h1>Traveller Details</h1>
+    <form class="" action="/" method="post">
+      <div class="form-group">
+        <input type="text" name="postName" placeholder="Enter Name">
+        <input type="text" name="postEmail" placeholder="Enter Email ID">
+        <select  aria-label="Default select example" name="postLocation">
+          <option selected>Where do you want to go?</option>
+          <option value="India">India</option>
+          <option value="Africa">Africa</option>
+          <option value="Europe">Europe</option>
+        </select>
+
+        <input type="text" name="postTravellers" placeholder="Enter No of Travellers">
+        <div id = 'Money' class="input-group">
+      <input id = 'MoneyInput' type="text" class="form-control" style="color:white" aria-label="Dollar amount" placeholder="Budget per Person" name="postBudget">
+      <span class="input-group-text">$</span>
+    </div>
+      <button class="btn btn-outline-success" style="background-color: #50a3a2" type="submit" name="button">Submit</button>
+    </form>
+
+<%- include("partials/footer"); -%>

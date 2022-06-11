@@ -1,0 +1,17 @@
+1.Open command prompt and instantiate the mongoDB using the below command(Please note that MongoDB must be installed on your system):
+
+	$mongod
+
+2.Open a new command prompt window and navigate to the below folder using command line:
+
+...\Travelopia_Take_home_test\Files
+
+	The command will be like: $ cd ...\Travelopia_Take_home_test\Files
+
+3.Run the javascript file in the command line using the below command in the command window:
+
+	$nodemon app.js
+
+4. Open google chrome and type the below address:
+
+	http://localhost:3000/

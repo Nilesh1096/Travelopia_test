@@ -1,0 +1,19 @@
+
+<%- include("partials/header"); -%>
+
+
+
+  <%  posts.forEach(function(post){ %>
+<div class="note" >
+  <h1><u>Details</u></h1>
+    <p>Name              : <%=post.name%></p>
+    <p>Email             : <%=post.email%> </p>
+    <p>Destination       : <%=post.destination%> </p>
+    <p>No of Travellers  : <%=post.noOfTravellers%> </p>
+    <p>Budget            : <%=post.budget%> $ </p>
+
+    </div>
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>
